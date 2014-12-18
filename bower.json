@@ -1,0 +1,15 @@
+{
+  "name": "rioloco-new",
+  "private": true,
+  "dependencies": {
+    "jquery": "~1.11.0",
+    "leaflet": "~0.7.3",
+    "esri-leaflet": "~0.0.1-beta.4-patch-1",
+    "leaflet-omnivore": "~0.2.0",
+    "jquery-easing": "*",
+    "chartjs": "1.0.1-beta.2",
+    "Camera": "*",
+    "jquery-modal": "~0.5.2"
+  },
+  "devDependencies": {}
+}

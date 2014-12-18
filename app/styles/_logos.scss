@@ -1,0 +1,46 @@
+.logos {
+  text-align:center;
+  clear:both;
+}
+.logo {
+  background-image: url(../images/logo-sprite-25.png);
+  width:87.5px;
+  height:87.5px;
+  display: inline-block;
+  margin-left:15px;
+}
+
+#doi-logo {
+  margin-left:0;
+  background-position: 0 0;
+}
+#fws-logo {
+  background-position: -87.5px 0;
+}
+#r2r-logo {
+  background-position: -175px 0;
+}
+#insular-logo {
+  background-position: -262.5px 0;
+}
+#protectores-logo {
+  background-position: -350px 0;
+}
+#noaa-logo {
+  background-position: -437.5px 0;
+}
+#epa-logo {
+  background-position: -525px 0;
+}
+#nrcs-logo {
+  background-position: -612.5px 0;
+}
+#para-logo {
+  background-position: -700px 0;
+}
+#envirosurvey-logo {
+  background-position: -787.5px 0;
+}
+#drna-logo {
+  background-position: -875px 0;
+}

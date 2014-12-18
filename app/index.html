@@ -1,0 +1,245 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <title>Watershed Partnership Initiative</title> <!-- Page Title. Maximum length 60-70 characters -->
+    <meta name="description" content="" />  <!-- Page description. No longer than 155 characters. -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@USFWSSoutheast">
+    <meta name="twitter:title" content="Río Loco / Guánica Bay Watershed Partnership Initiative">
+    <meta name="twitter:url" content="http://www.fws.gov/southeast/rioloco/">
+    <meta name="twitter:image" content="http://www.fws.gov/southeast/rioloco/img/slider/Watershed05.jpg"> 
+    <meta name="twitter:description" content="The Río Loco Watershed Project (RLWP) began in 2009 as a multiagency effort to support the USCRTF Local Action Strategies (LAS) as identified in the Guánica Bay Watershed Management Plan. NRCS work seeks to address LAS at Río Loco related to land based sources of pollution by reducing loss of coral reef cover through the promotion and application of integrated watershed and land use management practices on agricultural lands.">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Río Loco / Guánica Bay Watershed Partnership Initiative" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content=" http://www.fws.gov/southeast/rioloco/" />
+    <meta property="og:image" content="http://www.fws.gov/southeast/rioloco/img/slider/Watershed05.jpg" />
+    <meta property="og:description" content="The Río Loco Watershed Project (RLWP) began in 2009 as a multiagency effort to support the USCRTF Local Action Strategies (LAS) as identified in the Guánica Bay Watershed Management Plan. NRCS work seeks to address LAS at Río Loco related to land based sources of pollution by reducing loss of coral reef cover through the promotion and application of integrated watershed and land use management practices on agricultural lands." /> 
+    <meta property="fb:admins" content="usfwssoutheast" /> 
+
+    <link rel="shortcut icon" href="/favicon.ico">
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <link rel="stylesheet" href="../bower_components/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="../bower_components/jquery-modal/jquery.modal.css" />
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css(.tmp) styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+
+  </head>
+  <body>
+    <!--[if lt IE 10]>
+      <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
+    <section class="modal">
+      <p>This Story Map shows an overview of the Rio Loco Watershed/Guánica Bay (RL/GB) watershed initiative and the efforts implemented by federal and local partners to restore and conserve the watershed ecosystem.</p>
+      <p>This project was developed by the U.S. Fish &amp; Wildlife Service, Southeast Region in collaboration with U.S. Coral Reef Task Force - Sunia Coral Reef Conservation Internship Program.</p>
+    </section>
+
+    <header>
+      <div id="banner"></div>
+        <h1 id="rio">Guanica Bay/Rio Loco</h1>
+        <div id="titleBar">
+        <h1 id="title">Watershed Partnership Initiative</h1>
+      </div>
+    </header>
+    
+    <div id="wrapper">
+
+      <section id="sidebar">
+        <div id="infowindow">
+
+          <div id="infoTop">
+            <div id="imgContainer">
+              <div id="watershed-slider" class="camera_wrap slider">
+                <div data-src="images/slider/watershed01.jpg"></div>
+                <div data-src="images/slider/watershed02.jpg"></div>
+                <div data-src="images/slider/watershed03.jpg"></div>
+                <div data-src="images/slider/watershed04.jpg"></div>
+                <div data-src="images/slider/watershed05.jpg" data-link="https://flic.kr/p/gufaKb"></div>
+                <div data-src="images/slider/watershed06.jpg"></div>
+              </div>
+              <div id="coastal-slider" class="camera_wrap slider">
+                <div data-src="images/slider/coastal01.jpg"></div>
+                <div data-src="images/slider/coastal02.jpg"></div>
+                <div data-src="images/slider/coastal03.jpg"></div>
+                <div data-src="images/slider/coastal04.jpg"></div>
+                <div data-src="images/slider/coastal05.jpg"></div>
+                <div data-src="images/slider/coastal06.jpg"></div>
+              </div>
+              <div id="erosion-slider" class="camera_wrap slider">
+                <div data-src="images/slider/stream01.jpg"></div>
+                <div data-src="images/slider/stream02.jpg"></div>
+                <div data-src="images/slider/stream03.jpg"></div>
+                <div data-src="images/slider/stream04.jpg"></div>
+                <div data-src="images/slider/stream05.jpg"></div>
+                <div data-src="images/slider/stream06.jpg"></div>
+              </div>
+              <div id="guanica-slider" class="camera_wrap slider">
+                <div data-src="images/slider/guanicaLagoon01.jpg"></div>
+                <div data-src="images/slider/guanicaLagoon02.jpg"></div>
+                <div data-src="images/slider/guanicaLagoon03.jpg"></div>
+                <div data-src="images/slider/guanicaLagoon04.jpg"></div>
+                <div data-src="images/slider/guanicaLagoon05.jpg"></div>
+                <div data-src="images/slider/guanicaLagoon06.jpg"></div>
+              </div>
+              <div id="join-us-slider" class="camera_wrap slider">
+                <div data-src="images/slider/joinUs01.jpg"></div>
+                <div data-src="images/slider/joinUs02.jpg"></div>
+                <div data-src="images/slider/joinUs03.jpg"></div>
+                <div data-src="images/slider/joinUs04.jpg"></div>
+                <div data-src="images/slider/joinUs05.jpg"></div>
+                <div data-src="images/slider/joinUs06.jpg"></div>
+              </div>
+              <div id="shade-slider" class="camera_wrap slider">
+                <div data-src="images/slider/shade01.jpg"></div>
+                <div data-src="images/slider/shade02.jpg"></div>
+                <div data-src="images/slider/shade03.jpg"></div>
+                <div data-src="images/slider/shade04.jpg"></div>
+                <div data-src="images/slider/shade05.jpg"></div>
+                <div data-src="images/slider/shade06.jpg"></div>
+              </div>
+              <div id="wetland-slider" class="camera_wrap slider">
+                <div data-src="images/slider/wetland01.jpg"></div>
+                <div data-src="images/slider/wetland02.jpg"></div>
+                <div data-src="images/slider/wetland03.jpg"></div>
+                <div data-src="images/slider/wetland04.jpg"></div>
+                <div data-src="images/slider/wetland05.jpg"></div>
+                <div data-src="images/slider/wetland06.jpg"></div>
+              </div>
+            </div>
+            <hr>
+          </div> <!-- End infoTop -->
+          <div id="prjTitle"><h1>The Rio Loco Watershed</h1></div>
+          <div id="prjDescription">
+            <p>The Rio Loco Watershed/ Guánica Bay (RL/GB) initiative began in 2009 as the first U. S. Coral Reef Task Force (USCRTF) Watershed Partnership Initiative. This multiagency effort, led by USDA-NRCS and NOAA, is focused to reduce erosion and sedimentation to coral reefs and costal ecosystems as identified by the RL/GB Watershed Management Plan.</p>
+
+            <p>The plan identified six major threats including 1) Upland erosion in the coffee growing regions; 2) Reservoir sedimentation and transport; 3) In-stream channel erosion; 4) Loss of Historic Guánica Lagoon; 5) Legacy contaminants; and 6) Sewage treatment.  Members of the USCRTF and partners are working together to implement restoration actions across the watershed to reduce the threats impacting coral reef ecosystem in the southwestern Puerto Rico.</p>
+
+            <strong id="lastUpdate">Last Updated: December 2014</strong>
+          </div>
+        </div> <!-- End infoWindow -->
+      </section><!-- End Sidebar 
+   --><div id="map">
+        <div class="loading">
+          <img src="images/ajax-loader.gif" alt="">
+          <p>Loading data from ScienceBase...</p>
+        </div>
+      </div>
+      <div id="shedMap" class="tab active" title="Learn about the Watershed">About the Watershed</div>
+      <div id="prjMap" class="tab" title="Learn more about the restoration projects">Conservation Actions</div>
+      <div id="joinUs" class="tab" title="Join the Effort!">Join the Effort</div><!-- 
+      
+       --><div id="statistics">
+        <h1>Partnership Accomplishments 2010 - 2014</h1>
+
+        <div id="figures">
+          <div id="graph-wrap">
+            <div class="figure">
+              <h3 id="contributions-headline">Contributions</h3>
+              <canvas id="contributions" class="chart" width="400" height="450"></canvas>
+              <br/>
+              <p>Total Contribution $6,608,070.00</p>
+              <p>*NGO's and Academia Includes:  Conservation Trust of Puerto Rico, Envirosurvey Inc.,  Univ. of Puerto Rico, Ridge to Reef Inc., Univ. of Miami, Protectores de Cuenca, Cafi Cultura Puertorriqueña Inc., and Center for Watershed Protection Inc.</p>
+              <p>**Coral Reef Conservation Initiative (CRCI) : funds from NOAA and USDA managed by the National Fish and Wildlife Foundation (NFWF)</p>
+            </div>
+          </div>
+          <div class="figure" id="watershed-details">
+            <div class="upper-shed">
+              <h3>Upper Watershed</h3>
+              <ul>
+                <li>3,273 acres restored to reduce erosion and sediment in the Coffee Region</li>
+                <li>23,806 native trees delivered to over 45 farms</li>
+                <li>15 acres restored using the hydroseeding techniques in 7 farms</li>
+              </ul>
+            </div>
+            <div class="lower-shed">
+              <h3>Lower Watershed</h3>
+              <ul>
+                <li>6,600 linear feet of irrigation water conveyance</li>
+                <li>4 irrigation Water Reservoirs</li>
+                <li>3 sediments and runoff control basin</li>
+                <li>8,880 linear feet of open channels</li>
+                <li>Restoration of Guanica Lagoon (in progress) and Guanica Treatment Wetlands (in progress)</li>
+              </ul>
+            </div>
+            <div class="grant-program">
+              <h3>Community Grant Program (CGP)</h3>
+              <p>(NOAA), USDA Natural Resources Conservation Service (NRCS) and National Fish and Wildlife Foundation (NFWF) have developed the CGP funding opportunity to projects that will help the natural resources in the GB/RL. At present CGP have been granted twelve project through non-governmental organization, academia and individuals.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="logos">
+          <a id="doi-logo" class="logo" title="Department of the Interior" href="http://www.doi.gov"></a>
+          <a id="fws-logo" class="logo" title="U.S. Fish and Wildlife Service" href="http://www.fws.gov"></a>
+          <a id="noaa-logo" class="logo" title="National Oceanic and Atmospheric Administration" href="http://www.noaa.gov"></a>
+          <a id="epa-logo" class="logo" title="Environmental Protection Agency" href="http://www.epa.gov"></a>
+          <a id="insular-logo" class="logo" title="DOI Office of Insular Affairs" href="http://www.doi.gov/oia"></a>
+          <a id="nrcs-logo" class="logo" title="Natural Resources Conservation Service" href="http://www.nrcs.usda.gov"></a>
+          <a id="drna-logo" class="logo" title="Puerto Rico Department of Natural Resources" href="http://www.drna.gobierno.pr/"></a>
+          <a id="r2r-logo" class="logo" title="Ridge to Reefs" href="http://www.ridgetoreefs.org"></a>
+          <a id="protectores-logo" class="logo" title="Protectores de Cuencas" ></a>
+          <a id="para-logo" class="logo" title="para la Naturaleza" href="http://www.paralanaturaleza.org/"></a>
+          <a id="envirosurvey-logo" class="logo" title="Envirosurvey, Inc."></a>
+          
+        </div>
+           
+      </div> <!-- End Join Us -->
+
+      
+      <!-- <div id="sourceCode" title="View Source Code on GitHub">&lt; / &gt;</div> -->
+      <!--  
+        <div id="links">
+          <ul style="text-align:center;">
+            <li><a href="http://www.fws.gov/">FWS</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.doi.gov/">DOI</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.usa.gov/">USA.gov</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/help/about_us.html">About FWS</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/help/accessibility.html">Accessibility</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/help/policies.html">Privacy</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/help/notices.html">Notices</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/help/disclaimer.html">Disclaimer</a></li>
+            <li class="divider">|</li>
+            <li><a href="http://www.fws.gov/irm/bpim/foia.html">FOIA</a></li>
+          </ul>
+        </div>
+      -->
+
+    </div> <!-- End Wrapper -->
+
+
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="../bower_components/jquery/dist/jquery.js"></script>
+    <script src="../bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="../bower_components/esri-leaflet/dist/esri-leaflet.js"></script>
+    <script src="../bower_components/leaflet-omnivore/leaflet-omnivore.js"></script>
+    <script src="../bower_components/jquery-easing/jquery.easing.js"></script>
+    <script src="../bower_components/chartjs/Chart.min.js"></script>
+    <script src="../bower_components/Camera/scripts/camera.js"></script>
+    <script src="../bower_components/jquery-modal/jquery.modal.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+  </body>
+</html>

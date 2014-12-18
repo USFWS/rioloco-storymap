@@ -1,0 +1,30 @@
+.active{
+  -webkit-box-shadow: 5px -5px 5px rgba(50, 50, 50, 0.75);
+     -moz-box-shadow: 5px -5px 5px rgba(50, 50, 50, 0.75);
+          box-shadow: 5px -5px 5px rgba(50, 50, 50, 0.75);
+}
+.tab {
+  padding:5px;
+  display:inline-block;
+  font-size:1.2em;
+  color:#fff;
+  position:relative;
+  top: -32px;
+  z-index:2;
+  cursor:pointer;
+}
+#shedMap{
+  background-color:$watershedTabColor;
+  position:absolute;
+  left:600px;
+}
+#prjMap{
+  background-color:$projectsTabColor;
+  position:absolute;
+  left:800px;
+}
+#joinUs {
+  background-color:$joinUsTabColor;
+  position:absolute;
+  left:1000px;
+}

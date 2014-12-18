@@ -1,0 +1,46 @@
+#statistics {
+  display: none;
+  float: right;
+  overflow-y:scroll;
+  background: #545454 url(../images/third-tab-bg.png) repeat-x left bottom;
+  color:white;
+  h1 {
+    text-align:center;
+  }
+}
+
+#figures {
+  margin:30px;
+  p {
+    width:450px;
+  }
+}
+.figure {
+  background-color: rgba(32,32,32,.6);
+  border-radius: 10px;
+  width:450px;
+  margin:0 auto 20px auto;
+  padding:15px;
+  ul {
+    list-style-type:none;
+  }
+}
+
+#contributions-headline {
+  text-align:center;
+}
+
+@media (min-width: 1640px) {
+  .figure {
+    float:left;
+  }
+  #watershed-details {
+    float:right;
+  }
+}
+
+@media (min-width: 1750px) {
+  #figures {
+    margin:75px;
+  }
+}
