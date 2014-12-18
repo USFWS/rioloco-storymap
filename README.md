@@ -19,6 +19,10 @@ The plan identified six major threats including:
 
 Members of the USCRTF and partners are working together to implement restoration actions across the watershed to reduce the threats impacting coral reef ecosystem in the southwestern Puerto Rico.
 
+## Development / Building the app
+
+This app was scaffolded using Yeoman and uses GruntJS as the build system.  You'll need to have nodejs installed in order to develop or build the app.  Once you have node installed you can install all of the app's dependencies with `npm install`.  To serve the application during development use `grunt serve`, which will launch a web server with auto-reload.  To build the app to deploy to production you'll use `grunt build`.
+
 ## Thanks
 
 This project uses several open source technologies including:
